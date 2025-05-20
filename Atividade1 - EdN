@@ -1,5 +1,5 @@
 # Tarefa 1: Exibir a mensagem "Olá, mundo!"
-print("Olá, mundo!")
+print("Fala, mundão!")
 
 # Tarefa 2: Calculadora de Soma
 print("\n--- Calculadora de Soma ---")

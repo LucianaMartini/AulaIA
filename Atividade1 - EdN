@@ -1,0 +1,45 @@
+# Tarefa 1: Exibir a mensagem "Olá, mundo!"
+print("Olá, mundo!")
+
+# Tarefa 2: Calculadora de Soma
+print("\n--- Calculadora de Soma ---")
+try:
+    num1_str = input("Digite o primeiro número inteiro: ")
+    num2_str = input("Digite o segundo número inteiro: ")
+    numero1 = int(num1_str)
+    numero2 = int(num2_str)
+    soma = numero1 + numero2
+    print(f"A soma de {numero1} e {numero2} é: {soma}")
+except ValueError:
+    print("Erro: Por favor, insira valores inteiros válidos.")
+
+# Tarefa 3: Calculadora de Volume
+print("\n--- Calculadora de Volume ---")
+try:
+    comprimento_str = input("Digite o comprimento da caixa (em cm): ")
+    largura_str = input("Digite a largura da caixa (em cm): ")
+    altura_str = input("Digite a altura da caixa (em cm): ")
+    comprimento = float(comprimento_str)
+    largura = float(largura_str)
+    altura = float(altura_str)
+    volume = comprimento * largura * altura
+    print(f"O volume da caixa retangular é: {volume} cm³")
+except ValueError:
+    print("Erro: Por favor, insira valores numéricos válidos para as dimensões.")
+
+# Tarefa 4: Calculadora de Preço Total
+print("\n--- Calculadora de Preço Total ---")
+nome_produto = input("Digite o nome do produto: ")
+try:
+    preco_unitario_str = input("Digite o preço unitário do produto: ")
+    quantidade_str = input("Digite a quantidade comprada: ")
+    preco_unitario = float(preco_unitario_str)
+    quantidade = int(quantidade_str)
+    preco_total = preco_unitario * quantidade
+    print("\n--- Resumo da Compra ---")
+    print(f"Produto: {nome_produto}")
+    print(f"Preço Unitário: R$ {preco_unitario:.2f}")
+    print(f"Quantidade: {quantidade}")
+    print(f"Preço Total: R$ {preco_total:.2f}")
+except ValueError:
+    print("Erro: Por favor, insira valores numéricos válidos para preço e quantidade.")

@@ -8,7 +8,7 @@ print("Informe a escala do valor a ser convertido:")
 print("C - Celsius")
 print("F - Fahrenheit")
 print("K - Kelvin")
-escala_original = str(input("Opção escolhida (C/F/K): "))
+escala_original = str(input("Digite a opção em LETRAS MAIÚSCULAS (C/F/K): "))
 
 
 # Dados Para Conversão
@@ -16,7 +16,7 @@ print("Informe a escala para a qual deseja converter:")
 print("C - Celsius")
 print("F - Fahrenheit")
 print("K - Kelvin")
-escala_convertida = str(input("Opção escolhida (C/F/K): "))
+escala_convertida = str(input("Digite a opção em LETRAS MAIÚSCULAS (C/F/K): "))
 
 
 # Cálculo

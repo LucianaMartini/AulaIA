@@ -8,7 +8,7 @@ print("Informe a escala do valor a ser convertido:")
 print("C - Celsius")
 print("F - Fahrenheit")
 print("K - Kelvin")
-escala_original = str(input("Opção escolhida: "))
+escala_original = str(input("Opção escolhida (C/F/K): "))
 
 
 # Dados Para Conversão
@@ -16,7 +16,7 @@ print("Informe a escala para a qual deseja converter:")
 print("C - Celsius")
 print("F - Fahrenheit")
 print("K - Kelvin")
-escala_convertida = str(input("Opção escolhida: "))
+escala_convertida = str(input("Opção escolhida (C/F/K): "))
 
 
 # Cálculo
@@ -40,5 +40,5 @@ else:  # Destino é Celsius
     simbolo_destino = "C"
 
 
-#Resultado
-print(f"{valor_original} graus {escala_original} = {temperatura_convertida} graus {escala_convertida}.")
+# Resultado Apresentado
+print(f"{valor_original} {escala_original} = {temperatura_convertida} {escala_convertida}")

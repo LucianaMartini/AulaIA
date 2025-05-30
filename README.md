@@ -1,4 +1,2 @@
 # Tutorial
-Essa é minha primeira anotação  
-terceira linha  
-quarta linha  
+Espaço criado para estudo e exercícios realizados durante o curso da Escola da Nuvem.
